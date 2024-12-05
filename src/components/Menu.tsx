@@ -59,7 +59,7 @@ const Menu = () => {
   ];
 
   return (
-    <div className="w-[242px] fixed  top-0 h-full pt-[20px] border-r ">
+    <div className="max-w-[220px] w-full fixed sm:block hidden top-0 h-full pt-[20px] border-r ">
       <div className=" flex pt-2 justify-center">
         <Image
           src={"./vasitum-logo.svg"}
@@ -68,7 +68,7 @@ const Menu = () => {
           alt="logo"
         ></Image>
       </div>
-      <div className=" flex pl-8 pt-14 flex-col">
+      <div className=" flex pl-7 pt-14 flex-col">
         <h2 className="text-[#686868] text-[12px] font-medium  ">MAIN MENU</h2>
         <div className=" pt-8 space-y-10">
           {Mainmenu.map((index) => (
@@ -86,7 +86,7 @@ const Menu = () => {
           ))}
         </div>
       </div>
-      <div className=" pl-8 pt-20">
+      <div className=" pl-7 pt-20">
         <h2 className="text-[#686868] text-[12px] font-medium  ">OTHER</h2>
         <div className=" pt-8 space-y-10">
           {other.map((index) => (

@@ -24,11 +24,11 @@ const BigCard = () => {
   ];
 
   return (
-    <div className="flex gap-5 ">
+    <div className="flex sm:flex-row flex-col gap-5 ">
       {cardData.map((index) => (
         <div
           key={index.id}
-          className="w-[312px] h-[190px] p-5 justify-between border rounded-lg flex"
+          className="sm:w-[312px] w-full h-[190px] p-5 justify-between border rounded-lg flex"
         >
           <div>
             {" "}
@@ -45,7 +45,7 @@ const BigCard = () => {
               {index.women} Women
             </h2>
           </div>
-          <div className="w-[115px] pt-5 ">
+          <div className="sm:w-[115px] pt-5 ">
             <Image
               src={index.graphImg}
               height={78}

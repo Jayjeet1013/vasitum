@@ -15,8 +15,8 @@ const Schedule = () => {
     },
   ];
   return (
-    <div className="border rounded-xl max-w-full sm:w-[427px] mx-auto">
-      <div className="text-[#161E54]  flex p-4 justify-between text-[18px] ">
+    <div className="border rounded-xl w-full max-w-[427px] mx-auto">
+      <div className="text-[#161E54]  flex p-4 justify-between text-[16px] sm:text-[18px] ">
         <h2 className="text-center items-center flex "> Upcoming Schedule</h2>
 
         <div className="p-2 gap-1 rounded-md flex border ">

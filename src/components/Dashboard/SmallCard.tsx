@@ -29,11 +29,11 @@ const SmallCard = () => {
     },
   ];
   return (
-    <div className="flex gap-4 ">
+    <div className="flex sm:flex-row flex-col gap-4 ">
       {dataCard.map((index) => (
         <div
           key={index.id}
-          className="py-3 px-4 w-[204px] h-[136px] rounded-[10px] "
+          className="py-3 px-4 sm:w-[204px] h-[136px] rounded-[10px] "
           style={{ backgroundColor: index.bgColor }}
         >
           <h2 className="text-lg font-medium text-[#161E54] ">{index.title}</h2>

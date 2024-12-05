@@ -20,7 +20,7 @@ const Announcement = () => {
     },
   ];
   return (
-    <div className="border rounded-xl w-[640px]  ">
+    <div className="border rounded-xl w-full max-w-[640px]  ">
       <div className="text-[#161E54]  flex py-4 px-4 justify-between text-[18px] ">
         <h2 className="text-center items-center flex "> Announcement</h2>
         <div className="px-2 gap-1 rounded-md flex border ">
@@ -41,7 +41,7 @@ const Announcement = () => {
             className="rounded-xl flex justify-between border p-3 "
           >
             <div className="space-y-2 ">
-              <h2 className="font-medium text-[16px] w-[400px] ">
+              <h2 className="font-normal sm:font-medium text-[14px] sm:text-[16px] sm:w-[400px] ">
                 {index.title}
               </h2>
               <h2 className="text-[#686868] text-[10px] font-normal leading-[14px] ">{index.time}</h2>
