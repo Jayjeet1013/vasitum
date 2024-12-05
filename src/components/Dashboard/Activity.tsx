@@ -2,7 +2,7 @@ import React from 'react'
 
 const Activity = () => {
   return (
-    <div className="w-[427px] h-[258px]   text-[#FFFFFF]  ">
+    <div className="max-w-full sm:w-[427px] h-auto sm:h-[258px] text-[#FFFFFF]">
       <div className="bg-[#1B204A] p-3 rounded-t-[10px] ">
         <h1 className="text-[18px] font-medium leading-[28px]  ">
           Recent Activity

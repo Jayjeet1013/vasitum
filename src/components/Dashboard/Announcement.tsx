@@ -21,9 +21,9 @@ const Announcement = () => {
   ];
   return (
     <div className="border rounded-xl w-[640px]  ">
-      <div className="text-[#161E54]  flex p-4 justify-between text-[18px] ">
+      <div className="text-[#161E54]  flex py-4 px-4 justify-between text-[18px] ">
         <h2 className="text-center items-center flex "> Announcement</h2>
-        <div className="p-2 gap-1 rounded-md flex border ">
+        <div className="px-2 gap-1 rounded-md flex border ">
           {" "}
           <h3 className="text-[12px] font-normal ">Today, 13 Sep 2021</h3>
           <Image
@@ -34,7 +34,7 @@ const Announcement = () => {
           ></Image>
         </div>
       </div>
-      <div className=" flex flex-col p-4 gap-3">
+      <div className=" flex flex-col pt-4 px-4 gap-2">
         {data.map((index) => (
           <div
             key={index.id}

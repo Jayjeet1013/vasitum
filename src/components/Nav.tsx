@@ -5,7 +5,7 @@ import { FiSearch } from "react-icons/fi";
 const Nav = () => {
   return (
     <div className="  w-full mx-auto  fixed bg-white">
-      <div className="ml-[292px] pr-[50px] border-b  py-10  ">
+      <div className="ml-[292px] pr-[50px] border-b  py-6  ">
         <div className=" flex  justify-between ">
           <div>
             <input

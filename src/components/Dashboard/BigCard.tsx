@@ -38,10 +38,10 @@ const BigCard = () => {
             <h1 className="text-5xl font-medium pt-3 pb-4 text-[#161E54] ">
               {index.number}
             </h1>
-            <h2 className="text-[12px] font-normal leading-[18px] ">
+            <h2 className="text-[12px] text-[#686868] font-normal leading-[18px] ">
               {index.men} Men
             </h2>
-            <h2 className="text-[12px] font-normal leading-[18px] ">
+            <h2 className="text-[12px] text-[#686868] font-normal leading-[18px] ">
               {index.women} Women
             </h2>
           </div>
